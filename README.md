@@ -18,17 +18,24 @@ The objective of this proposal is to bring the attention of the research communi
 ## Approaches
 
 Memes are essentially bimodal. They have both Text and Image components. We used both bimodal (text and image) and unimodal (text-only) approaches as listed below:
-Bimodal
+#### Bimodal
+
 ffnn_cnn_svm: Feed Forward Neural Network with Word2vec for text, CNN for images, combined via an SVM classifier
+
 mmbt: Multimodal Bitransformer
-Unimodal
+
+#### Unimodal
+
 naive_bayes: Simple Naive Bayes classifier
+
 ffnn_w2v: Feed Forward Neural Network with Word2vec
+
 bert: Bidirectional Encoder Representations via Transformers
 
 ## Evaluation Criteria
 
 For Task A: macro F1
+
 For Task B and C: macro F1 for each of the subtasks, and then average.
 
 ## Results
